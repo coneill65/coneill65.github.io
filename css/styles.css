@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Gill Sans";
+    src: url("font.eot?") format("eot"),
+    url("font.woff") format("woff"),
+    url("font.ttf") format("truetype");
+}
+
+body{
+    background: rgb(2,5,108);
+    background: linear-gradient(90deg, rgba(2,5,108,1) 0%, rgba(4,161,158,1) 50%, rgba(2,159,19,1) 100%);
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.main-div{
+    background-color: #ffffff41;
+    margin: 5%;
+    text-align: center;
+    padding: 0px;
+}
+div{
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+nav a{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 255, 0);
+    text-decoration: none;
+    color: blue;
+}
+nav a:hover{
+    background-color: blue;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+img{
+    resize: horizontal;
+    overflow: auto;
+    max-width: 320px;
+    max-height: 320px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+p{
+    column-count: 3;
+    column-gap: 50px;
+    margin: 5%;
+}
+#footer {
+    margin: 0px;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li {
+    width: 33%;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+#songsdiv {
+    height: 400px;
+    overflow: auto;
+}
